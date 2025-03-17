@@ -12,15 +12,22 @@ packages:
   original:
     hackage: twitch-0.1.7.2@sha256:146a887da4d2d21e489ff823a6058add40c1f9c5ee8e0d00356b497092c9c624,2988
 - completed:
-    hackage: html-parse-0.2.0.2@sha256:268c6c3a723aae77ff799bf501d60a91e60536facab3ae70df7a74cea75e29c3,3898
+    hackage: html-parse-0.2.1.0@sha256:d2f56693c5f45a5df902583e42ac0180f692e30b0e8c3c58c853a96b318ae8d0,4317
     pantry-tree:
-      sha256: c5c294ecfbe759becf84a555c578995788c98a5b3944066b167bea8b143efb1e
-      size: 516
+      sha256: a8c32c697f33b9b4ae16f2efcee9c029d5f12a84f378da1f529d5b48881b5754
+      size: 757
   original:
-    hackage: html-parse-0.2.0.2@sha256:268c6c3a723aae77ff799bf501d60a91e60536facab3ae70df7a74cea75e29c3,3898
+    hackage: html-parse-0.2.1.0@sha256:d2f56693c5f45a5df902583e42ac0180f692e30b0e8c3c58c853a96b318ae8d0,4317
+- completed:
+    hackage: fsnotify-0.3.0.1@sha256:a9c7875fa39876f8d07cc2f69e8f47e0e1f59ffcb1003ea9aab544d42535b758,2997
+    pantry-tree:
+      sha256: 89fb081cd8f65b137d352e6eb9b624e9268b65349b0d9617f79eebbf216c38cd
+      size: 1130
+  original:
+    hackage: fsnotify-0.3.0.1
 snapshots:
 - completed:
-    sha256: 428ec8d5ce932190d3cbe266b9eb3c175cd81e984babf876b64019e2cbe4ea68
-    size: 590100
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/28.yaml
-  original: lts-18.28
+    sha256: 3020db98a5e35009543057d6e6b96890d285890fc97688933e1798da92c8bbde
+    size: 683815
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/23/15.yaml
+  original: lts-23.15

@@ -173,6 +173,12 @@ main = hspec $ do
                 "  }",
                 "}",
                 "",
+                "@-webkit-keyframes spin {",
+                "  to {",
+                "    transform: rotate(360deg);",
+                "  }",
+                "}",
+                "",
                 "@media (min-width: 640px) {",
                 "  .sm\\:container {",
                 "    width: 100%;",
@@ -206,6 +212,10 @@ main = hspec $ do
                 CSS.Comment " another\n   comment ",
                 CSS.Query
                   "keyframes"
+                  "spin"
+                  [CSS.RuleGroup (CSS.GenericSelector "to" :| []) "\n    transform: rotate(360deg);\n  "],
+                CSS.Query
+                  "-webkit-keyframes"
                   "spin"
                   [CSS.RuleGroup (CSS.GenericSelector "to" :| []) "\n    transform: rotate(360deg);\n  "],
                 CSS.MediaQuery
